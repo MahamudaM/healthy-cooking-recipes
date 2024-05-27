@@ -1,0 +1,61 @@
+{
+    "recipes":[
+      {
+        "id": 1,
+        "title": "Margherita Pizza",
+        "price": 9.99,
+        "description": "Classic Italian pizza topped with tomatoes, mozzarella, and fresh basil.",
+        "image": "https://example.com/margherita_pizza.jpg",
+        "category": "Italian",
+        "ingredients": ["tomatoes", "mozzarella cheese", "fresh basil", "olive oil", "garlic", "pizza dough"]
+      },
+      {
+        "id": 2,
+        "title": "California Roll",
+        "price": 12.99,
+        "description": "Sushi roll filled with avocado, crab meat, and cucumber, wrapped in seaweed and rice.",
+        "image": "https://example.com/images/ramen.jpg",
+        "category": "Japanese",
+        "ingredients": ["sushi rice", "seaweed", "avocado", "crab meat", "cucumber"]
+      },
+      {
+        "id": 3,
+        "title": "Chicken Tacos",
+        "price": 7.49,
+        "description": "Soft corn tortillas filled with grilled chicken, onions, cilantro, and salsa.",
+        "image": "https://example.com/chicken_tacos.jpg",
+        "category": "Mexican",
+        "ingredients": ["grilled chicken", "corn tortillas", "onions", "cilantro", "salsa"]
+      },
+      {
+        "id": 4,
+        "title": "Pad Thai Noodles",
+        "price": 11.99,
+        "description": "Stir-fried rice noodles with shrimp, tofu, bean sprouts, and peanuts in a tangy tamarind sauce.",
+        "image": "https://example.com/pad_thai.jpg",
+        "category": "Thai",
+        "ingredients": ["rice noodles", "shrimp", "tofu", "bean sprouts", "peanuts", "tamarind sauce"]
+      },
+      {
+        "id": 5,
+        "title": "Cheeseburger",
+        "price": 8.99,
+        "description": "Classic American burger with a juicy beef patty, melted cheese, lettuce, tomato, and pickles.",
+        "image": "https://example.com/cheeseburger.jpg",
+        "category": "American",
+        "ingredients": ["beef patty", "cheddar cheese", "lettuce", "tomato", "pickles", "burger bun"]
+      },
+      {
+        "id": 6,
+        "title": "Butter Chicken Curry",
+        "price": 13.49,
+        "description": "Creamy and aromatic Indian curry made with tender chicken cooked in a rich tomato and butter sauce.",
+        "image": "https://example.com/butter_chicken.jpg",
+        "category": "Indian",
+        "ingredients": ["chicken", "tomato", "butter", "cream", "spices"]
+      }
+    ]
+  
+}
+
+

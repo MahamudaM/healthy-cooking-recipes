@@ -1,0 +1,28 @@
+{
+    "categories": [
+        {
+          "title": "Italian",
+          "id": "2314"
+        },
+        {
+          "title": "Indian",
+          "id": "8569"
+        },
+        {
+          "title": "Japanese",
+          "id": "5680"
+        },
+        {
+          "title": "Mexican",
+          "id": "e23f"
+        },
+        {
+          "title": "American",
+          "id": "8569"
+        },
+        {
+          "title": "Thai",
+          "id": "5680"
+        }
+    ] 
+}

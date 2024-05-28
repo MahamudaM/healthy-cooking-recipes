@@ -6,12 +6,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB5EpF8WUAuuzqghzn8owIbYyB0BTD0UzE",
-  authDomain: "healthy-cooking-recipes-af46e.firebaseapp.com",
-  projectId: "healthy-cooking-recipes-af46e",
-  storageBucket: "healthy-cooking-recipes-af46e.appspot.com",
-  messagingSenderId: "702720512123",
-  appId: "1:702720512123:web:093192c48f9873fb9152de"
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain:import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId:import.meta.env.VITE_appId
 };
 
 // Initialize Firebase

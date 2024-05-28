@@ -9,6 +9,7 @@ import AddRecipe from "../pages/dashbord/AddRecipe";
 import ManageAllRecipe from "../pages/dashbord/ManageAllRecipe";
 import DashboardHome from "../pages/dashbord/DashboardHome";
 import About from "../pages/About";
+import Blogs from "../pages/Blogs";
 
 
  const router = createBrowserRouter([
@@ -24,6 +25,10 @@ import About from "../pages/About";
         path: "about",
         element: <About/>,
       },
+      {
+        path: "blog",
+        element: <Blogs/>,
+      }
     ],
   },
   {

@@ -8,12 +8,12 @@ export default function Home() {
   const [recipes, setRescipes] = useState([]);
   const [categoris, setCategories] = useState([]);
   useEffect(() => {
-    fetch("recipes.json")
+    fetch("http://localhost:3000/recipes")
       .then((res) => res.json())
       .then((data) => setRescipes(data));
 
 
-    fetch("categories.json")
+    fetch("http://localhost:3000/categories")
       .then((res) => res.json())
       .then((data) => setCategories(data));
   }, []);

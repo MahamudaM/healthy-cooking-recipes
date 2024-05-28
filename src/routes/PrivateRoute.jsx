@@ -5,11 +5,14 @@ import { AuthContext } from "../components/Auth/AuthProvider";
 
 // eslint-disable-next-line react/prop-types
 export default function PrivateRoute({ children }) {
-  const{user,loading} = useContext(AuthContext);
+  
+ 
+  const{user,loader} = useContext(AuthContext);
   let location = useLocation();
-  if (loading) {
-    return <p>Loading...</p>;
-  }
+  if(loader){
+    return <button className="btn loading">loading</button>
+    
+}
   if (!user) {
     return <Navigate to="/login" state={{ from: location }} replace />;
   }

@@ -4,13 +4,12 @@ import Login from "../pages/Login";
 import Home from "../pages/Home";
 import Register from "../pages/Register";
 import DashbaordLayout from "../layouts/DashbaordLayout";
-import PrivateRoute from "./PrivateRoute";
 import AddRecipe from "../pages/dashbord/AddRecipe";
 import ManageAllRecipe from "../pages/dashbord/ManageAllRecipe";
 import DashboardHome from "../pages/dashbord/DashboardHome";
 import About from "../pages/About";
 import Blogs from "../pages/Blogs";
-
+import PrivateRoute from '../routes/PrivateRoute'
 
  const router = createBrowserRouter([
   {
@@ -22,11 +21,11 @@ import Blogs from "../pages/Blogs";
         element: <Home/>,
       },
       {
-        path: "about",
+        path: "/about",
         element: <About/>,
       },
       {
-        path: "blog",
+        path: "/blog",
         element: <Blogs/>,
       }
     ],
@@ -52,11 +51,11 @@ import Blogs from "../pages/Blogs";
         element: <DashboardHome/>,
       },
       {
-        path: "manage-recipes",
+        path: "/manage-recipes",
         element: <ManageAllRecipe/>,
       },
       {
-        path: "add-recipe",
+        path: "/add-recipe",
         element: <AddRecipe/>,
       }
     ],

@@ -18,10 +18,10 @@ const manuItem=
 <li><Link to='/blog'>Blog</Link></li>
 <li>
   {
-  user?.uid?
+  user?.email?
   <>
-  <li><Link to='/myReviews'>My review</Link></li>
-  <li><Link to= '/addService'>add service </Link></li>
+  <li><Link to='/manage-recipes'>Manage recipes</Link></li>
+  <li><Link to= '/add-recipe'>Add recipe </Link></li>
   <button onClick={logOutHandl}>log out</button>
   </>
   :
